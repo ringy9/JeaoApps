@@ -205,13 +205,13 @@
     },
     "ironsource": {
       "enabled": true,
-      "app_key": "269c9a18d",
+      "app_key": "27a27131d",
       "banner_enabled": true,
       "interstitial_enabled": true,
       "rewarded_enabled": false,
-      "banner_ad_unit_id": "80b1bb6g3lwuxv43",
-      "interstitial_ad_unit_id": "bgefeaxzw0yf1mwo",
-      "rewarded_ad_unit_id": "da761sxxpw9787hv"
+      "banner_ad_unit_id": "xez076xjj7pyzlek",
+      "interstitial_ad_unit_id": "17xhrw3tdj7txq6d",
+      "rewarded_ad_unit_id": "bwyvuijrhbfq11a7"
     },
     "meta": {
       "enabled": true,
@@ -222,13 +222,13 @@
     },
     "levelplay": {
       "enabled": true,
-      "app_key": "269c9a18d",
+      "app_key": "27a27131d",
       "banner_enabled": true,
       "interstitial_enabled": true,
       "rewarded_enabled": false,
-      "banner_ad_unit_id": "80b1bb6g3lwuxv43",
-      "interstitial_ad_unit_id": "bgefeaxzw0yf1mwo",
-      "rewarded_ad_unit_id": "da761sxxpw9787hv",
+      "banner_ad_unit_id": "xez076xjj7pyzlek",
+      "interstitial_ad_unit_id": "17xhrw3tdj7txq6d",
+      "rewarded_ad_unit_id": "bwyvuijrhbfq11a7",
       "mediated_networks": {
         "admob": {
           "enabled": true,
@@ -279,10 +279,10 @@
       "enabled": true,
       "ready": false,
       "managed_by": "levelplay",
-      "game_id_android": "",
-      "banner_id": "",
-      "interstitial_id": "",
-      "rewarded_id": ""
+      "game_id_android": "6155984",
+      "banner_id": "Banner_Android",
+      "interstitial_id": "Interstitial_Android",
+      "rewarded_id": "Rewarded_Android"
     },
     "placements": {
       "banner": {
