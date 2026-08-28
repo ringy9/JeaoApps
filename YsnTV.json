@@ -184,8 +184,8 @@
   },
   "ads_config": {
     "enabled": true,
-    "default_network": "admob",
-    "fallback_network": "levelplay",
+    "default_network": "levelplay",
+    "fallback_network": "admob",
     "admob": {
       "enabled": true,
       "app_id": "ca-app-pub-8787914644651926~1296196887",
@@ -232,7 +232,7 @@
       "mediated_networks": {
         "admob": {
           "enabled": true,
-          "ready": false,
+          "ready": true,
           "dashboard_setup_required": true
         },
         "meta": {
@@ -242,24 +242,24 @@
         },
         "yandex": {
           "enabled": true,
-          "ready": false,
+          "ready": true,
           "dashboard_setup_required": true
         },
         "vungle_liftoff": {
           "enabled": true,
-          "ready": false,
+          "ready": true,
           "dashboard_setup_required": true
         },
         "unity_ads": {
           "enabled": true,
-          "ready": false,
+          "ready": true,
           "dashboard_setup_required": true
         }
       }
     },
     "yandex": {
       "enabled": true,
-      "ready": false,
+      "ready": true,
       "managed_by": "levelplay",
       "app_id": "",
       "banner_id": "",
@@ -268,7 +268,7 @@
     },
     "vungle": {
       "enabled": true,
-      "ready": false,
+      "ready": true,
       "managed_by": "levelplay",
       "app_id": "",
       "banner_id": "",
@@ -277,7 +277,7 @@
     },
     "unity_ads": {
       "enabled": true,
-      "ready": false,
+      "ready": true,
       "managed_by": "levelplay",
       "game_id_android": "6155984",
       "banner_id": "Banner_Android",
@@ -287,7 +287,7 @@
     "placements": {
       "banner": {
         "enabled": true,
-        "network": "admob",
+        "network": "levelplay",
         "fallback_network": "meta",
         "show_on": [
           "matches",
@@ -304,7 +304,7 @@
         "position": "bottom"
       },
       "rewarded": {
-        "enabled": false,
+        "enabled": true,
         "network": "levelplay",
         "show_on_first_match_click": false,
         "wait_for_load_ms": 2500,
@@ -312,8 +312,8 @@
       },
       "interstitial": {
         "enabled": true,
-        "network": "admob",
-        "fallback_network": "levelplay",
+        "network": "levelplay",
+        "fallback_network": "admob",
         "first_click": true,
         "first_click_only": false,
         "show_every_clicks": 3,
@@ -328,7 +328,7 @@
       },
       "native": {
         "enabled": true,
-        "network": "admob",
+        "network": "levelplay",
         "fallback_network": "meta",
         "player_preview": {
           "enabled": true,
@@ -344,31 +344,31 @@
         },
         "exit_dialog": {
           "enabled": true,
-          "network": "admob",
+          "network": "levelplay",
           "fallback_network": "meta"
         }
       },
       "app_open": {
         "enabled": true,
-        "network": "admob",
+        "network": "levelplay",
         "show_on_app_start": false,
         "min_seconds_between_ads": 300
       }
     },
     "networks": {
       "yandex": {
-        "enabled": false,
-        "ready": false,
+        "enabled": true,
+        "ready": true,
         "dashboard_required": true
       },
       "vungle": {
-        "enabled": false,
-        "ready": false,
+        "enabled": true,
+        "ready": true,
         "dashboard_required": true
       },
       "unity": {
-        "enabled": false,
-        "ready": false,
+        "enabled": true,
+        "ready": true,
         "managed_by": "levelplay",
         "dashboard_required": true,
         "app_id": "",
