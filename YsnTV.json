@@ -184,15 +184,15 @@
   },
   "ads_config": {
     "enabled": true,
-    "default_network": "levelplay",
+    "default_network": "admob",
     "fallback_network": "admob",
     "admob": {
       "enabled": true,
-      "app_id": "ca-app-pub-8787914644651926~1296196887",
-      "banner_id": "ca-app-pub-8787914644651926/6659424021",
-      "interstitial_id": "ca-app-pub-8787914644651926/3713696486",
-      "native_id": "ca-app-pub-8787914644651926/4184349633",
-      "app_open_id": "ca-app-pub-8787914644651926/5006476718",
+      "app_id": "ca-app-pub-3738055180283754~4670109378",
+      "banner_id": "ca-app-pub-3738055180283754/3835162556",
+      "interstitial_id": "ca-app-pub-3738055180283754/2833072078",
+      "native_id": "ca-app-pub-3738055180283754/2806363364",
+      "app_open_id": "ca-app-pub-3738055180283754/5267663728",
       "rewarded_id": ""
     },
 
@@ -287,7 +287,7 @@
     "placements": {
       "banner": {
         "enabled": true,
-        "network": "levelplay",
+        "network": "admob",
         "fallback_network": "meta",
         "show_on": [
           "matches",
@@ -305,14 +305,14 @@
       },
       "rewarded": {
         "enabled": true,
-        "network": "levelplay",
+        "network": "admob",
         "show_on_first_match_click": false,
         "wait_for_load_ms": 2500,
         "fallback_to_interstitial": false
       },
       "interstitial": {
         "enabled": true,
-        "network": "levelplay",
+        "network": "admob",
         "fallback_network": "admob",
         "first_click": true,
         "first_click_only": false,
@@ -328,7 +328,7 @@
       },
       "native": {
         "enabled": true,
-        "network": "levelplay",
+        "network": "admob",
         "fallback_network": "meta",
         "player_preview": {
           "enabled": true,
@@ -344,13 +344,13 @@
         },
         "exit_dialog": {
           "enabled": true,
-          "network": "levelplay",
+          "network": "admob",
           "fallback_network": "meta"
         }
       },
       "app_open": {
         "enabled": true,
-        "network": "levelplay",
+        "network": "admob",
         "show_on_app_start": false,
         "min_seconds_between_ads": 300
       }
