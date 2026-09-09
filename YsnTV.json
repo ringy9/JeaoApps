@@ -188,11 +188,11 @@
     "fallback_network": "admob",
     "admob": {
       "enabled": true,
-      "app_id": "ca-app-pub-3738055180283754~4670109378",
-      "banner_id": "ca-app-pub-3738055180283754/3835162556",
-      "interstitial_id": "ca-app-pub-3738055180283754/2833072078",
-      "native_id": "ca-app-pub-3738055180283754/2806363364",
-      "app_open_id": "ca-app-pub-3738055180283754/5267663728",
+      "app_id": "ca-app-pub-9297113109682195~2812265080",
+      "banner_id": "ca-app-pub-9297113109682195/7708268468",
+      "interstitial_id": "ca-app-pub-9297113109682195/4012566036",
+      "native_id": "ca-app-pub-9297113109682195/4339869091",
+      "app_open_id": "ca-app-pub-9297113109682195/5246856735",
       "rewarded_id": ""
     },
 
